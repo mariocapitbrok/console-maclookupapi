@@ -9,14 +9,14 @@ const rl = readline.createInterface({
   output: process.stdout,
 })
 
-rl.question('Provide a MAC Address:', function (macAddress) {
+rl.question('Provide a MAC Address:', function (mac) {
   //TODO: validateApiKey()
   //TODO: validateMacAddress(mac='44:38:39:ff:ef:57')
 
-  getMacData(API_KEY, macAddress).then(data => {
+  getMacData(API_KEY, mac).then(data => {
     const companyName = data.vendorDetails.companyName
 
-    printCompany(macAddress, companyName)
+    printCompany(mac, companyName)
   })
 
   rl.close()
