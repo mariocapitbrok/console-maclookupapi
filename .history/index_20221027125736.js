@@ -9,12 +9,11 @@ const rl = readline.createInterface({
   output: process.stdout,
 })
 
-rl.question('Provide a Mac Address:', function (search) {
-  rl.question('Provide your API Key:', function (API_KEY) {
+rl.question('Provide a Mac Address:', function (mac) {
+  rl.question('Provide your API Key:', function (apiKey) {
     getMacData(API_KEY, search).then(data => {
       console.log(data)
     })
-
     rl.close()
   })
 })
