@@ -14,14 +14,9 @@ rl.question('Provide a MAC Address:', function (mac) {
 
   getMacData(API_KEY, mac).then(data => {
     const companyName = data.vendorDetails.companyName
-    const color = '\x1b[32m%s\x1b[0m'
-    console.log(color, '-------')
-    console.log(`THIS IS YOUR RESULT: ${color}`, companyName)
     console.log(
-      `${companyName} is the company related to MAC address: ${color}`,
-      mac
+      `This is the Company associated with the MAC address you provided: ${companyName}`
     )
-    console.log(color, '-------')
   })
 
   rl.close()
