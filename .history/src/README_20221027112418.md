@@ -1,0 +1,17 @@
+# MacAddress.io API for console in Node.js
+
+The MAC address vendor API allows you to retrieve OUI vendor information, detect virtual machines, manufacturer, location, read the information encoded in the MAC address, and get our research's results regarding the given MAC address, OUI, IAB, and is based on https://macaddress.io/api service.
+
+## Input parameters
+
+- apiKey --> Required. Your personal API key. You can obtain one here: https://macaddress.io/signup
+- search --> Your MacAddress. Example: '44:38:39:ff:ef:57'
+- output --> Optional. Output format: json, xml, csv, vendor (default)
+
+# About the web API.
+
+This API is pure Node.js application without any dependencies and package.json files.
+
+# How to test in your machine (localhost)
+
+// TODO
