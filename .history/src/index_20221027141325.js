@@ -8,7 +8,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 })
 
-rl.question('Provide a MAC Address:', function (mac) {
+rl.question('Provide a Mac Address:', function (mac) {
   //TODO: validateApiKey()
   //TODO: validateMacAddress(mac='44:38:39:ff:ef:57')
 
