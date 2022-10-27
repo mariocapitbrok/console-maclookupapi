@@ -1,0 +1,2 @@
+* Regulate that we have an mac address.
+* Error validation.

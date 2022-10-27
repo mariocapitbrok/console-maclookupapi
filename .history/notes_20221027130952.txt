@@ -1,0 +1,3 @@
+* Regulate that we have an mac address.
+* Error validation.
+* Use a regular expresion for validate mac address.

@@ -1,0 +1,7 @@
+* Regulate that we have an mac address.
+* Error validation.
+* Use a regular expresion for validate mac address.
+* Error with the api address (return with a good error message)
+* Detallar el README file.
+* Incluir cómo correr la versión de consola y también la de servidor.
+* Explicar cómo realicé el assessment.

@@ -8,8 +8,8 @@ const rl = readline.createInterface({
 
 rl.question('Provide a Mac Address:', function (mac) {
   rl.question('Provide your API Key:', function (API_KEY) {
-    //TODO: validateApiKey(API_KEY)
-    //TODO: validateMacAddress(mac='44:38:39:ff:ef:57')
+    // validateApiKey(API_KEY)
+    // validateMacAddress(mac='44:38:39:ff:ef:57')
 
     getMacData(API_KEY, mac).then(data => {
       console.log(data)
